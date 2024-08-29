@@ -1,5 +1,6 @@
 import sys
 from ultralytics import YOLO
+from subprocess import Popen
 
 from PyQt5 import uic
 from PyQt5.QtMultimedia import QCameraInfo
@@ -19,8 +20,9 @@ class MainWindow(QMainWindow):
 
    def camera_active(self):
       self.index = self.comboBox.currentIndex()
+      Popen('python naebalovo.py')
       model = YOLO("models/yolo/yolov8n-pose.pt")
-      results = model(source=self.index, show=True, conf=0.3, save=True)  # predict on an image
+      results = model(source=self.index, show=True, conf=0.3, save=True)  # predict on an imagae
 
 
 if __name__ == '__main__':

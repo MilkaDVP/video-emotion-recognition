@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
       sys.exit()
 
    def camera_capture(self):
-      Popen('python camera_select.py')
+      Popen('python naebalovo.py')
 
 
 
