@@ -62,7 +62,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FF5956;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Настройки распознования позы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -84,7 +84,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FF5956;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Выбор модели:</string>
@@ -149,7 +149,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/icons8-синхронизировать-48.png</pixmap>
+     <pixmap>../images/icons/icons1.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -168,7 +168,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FF5956;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Выбор папки сохранения видео:</string>
@@ -206,7 +206,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/icons8-папка-48.png</pixmap>
+     <pixmap>../images/icons/icons2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -222,7 +222,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/icons8-папка-48.png</pixmap>
+     <pixmap>../images/icons/icons2.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -241,7 +241,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FF5956;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Выбор папки сохранения фото:</string>
@@ -301,7 +301,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FF5956;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Выбор папки сохранения кейпойнтов:</string>
@@ -320,7 +320,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/icons8-папка-48.png</pixmap>
+     <pixmap>../images/icons/icons2.png</pixmap>
     </property>
    </widget>
   </widget>
