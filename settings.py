@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
 if __name__ == '__main__':
    app = QApplication(sys.argv)
    form = MainWindow()
-   form.setFixedSize(830, 260)
+   form.setFixedSize(830, 270)
    form.setWindowTitle('Настройки')
    form.show()
    app.exec()

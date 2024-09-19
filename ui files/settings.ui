@@ -7,14 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>830</width>
-    <height>293</height>
+    <height>298</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color: #B92B27</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -29,6 +29,12 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: red;
+background-color: white</string>
+    </property>
     <property name="text">
      <string>&lt;</string>
     </property>
@@ -41,6 +47,12 @@
       <width>81</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: red;
+background-color: white</string>
     </property>
     <property name="text">
      <string>&gt;</string>
@@ -57,15 +69,18 @@
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro Extended</family>
-      <pointsize>22</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Настройки распознования позы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Настройки распознования позы&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -73,31 +88,40 @@
      <rect>
       <x>50</x>
       <y>60</y>
-      <width>181</width>
-      <height>31</height>
+      <width>171</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>18</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
-     <string>Выбор модели:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Выбор модели:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QComboBox" name="choice_model">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>220</x>
       <y>60</y>
       <width>191</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="insertPolicy">
      <enum>QComboBox::NoInsert</enum>
@@ -137,19 +161,22 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>40</y>
+      <y>60</y>
       <width>51</width>
-      <height>51</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../images/icons/icons1.png</pixmap>
+     <pixmap>../images/icons/icons3.png</pixmap>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
@@ -158,36 +185,45 @@
       <x>50</x>
       <y>110</y>
       <width>371</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>18</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
-     <string>Выбор папки сохранения видео:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Выбор папки сохранения видео:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="save_video">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>112</y>
+      <x>420</x>
+      <y>110</y>
       <width>191</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>14</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string>Выбор папки</string>
@@ -197,10 +233,16 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>100</y>
-      <width>41</width>
+      <y>110</y>
+      <width>51</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string/>
@@ -213,10 +255,16 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>150</y>
-      <width>41</width>
+      <y>160</y>
+      <width>51</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string/>
@@ -230,37 +278,46 @@
      <rect>
       <x>50</x>
       <y>160</y>
-      <width>361</width>
-      <height>31</height>
+      <width>391</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>18</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
-     <string>Выбор папки сохранения фото:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Выбор папки сохранения фото:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="save_photo">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>440</x>
       <y>160</y>
       <width>191</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>14</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string>Выбор папки</string>
@@ -269,17 +326,23 @@
    <widget class="QPushButton" name="save_keypoints">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>520</x>
       <y>210</y>
       <width>191</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>14</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string>Выбор папки</string>
@@ -290,31 +353,40 @@
      <rect>
       <x>50</x>
       <y>210</y>
-      <width>441</width>
-      <height>31</height>
+      <width>471</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>RussianRail G Pro</family>
-      <pointsize>18</pointsize>
+      <family>RussianRail G Pro 6</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
-     <string>Выбор папки сохранения кейпойнтов:</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Выбор папки сохранения кейпойнтов:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>200</y>
-      <width>41</width>
+      <y>210</y>
+      <width>51</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
     </property>
     <property name="text">
      <string/>
@@ -323,6 +395,52 @@
      <pixmap>../images/icons/icons2.png</pixmap>
     </property>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>971</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: RussianRail G Pro Medium;
+font-size: 18px;
+color: black;
+background-color: white</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>831</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>choice_model</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>save_video</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>save_photo</zorder>
+   <zorder>save_keypoints</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_9</zorder>
+   <zorder>line</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
