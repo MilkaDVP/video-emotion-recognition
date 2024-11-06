@@ -1,13 +1,13 @@
 import sys
-from ultralytics import YOLO
-from subprocess import Popen
-
 from PyQt5 import uic
 from PyQt5.QtMultimedia import QCameraInfo
 from PyQt5.QtWidgets import QMainWindow, QApplication
 
+from subprocess import Popen
+
 
 class MainWindow(QMainWindow):
+   print(1)
    def __init__(self):
       super().__init__()
       uic.loadUi('ui files/select_cameras.ui', self)
@@ -19,14 +19,9 @@ class MainWindow(QMainWindow):
       self.pushButton.clicked.connect(self.camera_active)
 
    def camera_active(self):
-      self.index = self.comboBox.currentIndex()
-      Popen('python naebalovo.py')
-      model = YOLO("models/yolo/yolov8n-pose.pt")
-      results = model(source=self.index, show=True, conf=0.3, save=True)  # predict on an imagae
+      Popen('python face.py')
 
-
-if __name__ == '__main__':
-   app = QApplication(sys.argv)
-   form = MainWindow()
-   form.show()
-   sys.exit(app.exec_())
+app = QApplication(sys.argv)
+form = MainWindow()
+form.show()
+sys.exit(app.exec_())
